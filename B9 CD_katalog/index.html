@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>CD Katalog</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Katalog</a></li>
+        <li><a href="uputstvo.html">Uputstvo</a></li>
+      </ul>
+    </nav>
+    <form>
+      <div>
+        <label for="izvodjac">Izvodjac:</label>
+        <input type="text" id="izvodjac" name="izvodjac" />
+      </div>
+      <div>
+        <label for="nazivAlbuma">Naziv albuma:</label>
+        <input type="text" id="nazivAlbuma" name="nazivAlbuma" />
+      </div>
+      <div>
+        <label for="zanr">Zanr:</label>
+        <select id="zanr" name="zanr">
+          <option value="">Izaberi zanr</option>
+          <option value="pop">Pop</option>
+          <option value="rock">Rock</option>
+          <option value="etno">Etno</option>
+          <option value="folk">Folk</option>
+          <option value="punk">Punk</option>
+          <option value="punk-rock">Punk-Rock</option>
+        </select>
+      </div>
+      <div>
+        <label for="godinaIzdanja">Godina izdanja:</label>
+        <select id="godinaIzdanja" name="godinaIzdanja">
+          <option value="">Izaberi godinu izdanja</option>
+          <option value="2007">2007</option>
+          <option value="2008">2008</option>
+          <option value="2009">2009</option>
+          <option value="2010">2010</option>
+        </select>
+      </div>
+      <div>
+        <label for="izdavackaKuca">Izdavacka kuca:</label>
+        <input type="text" id="izdavackaKuca" name="izdavackaKuca" />
+      </div>
+      <input type="submit" value="Trazi" />
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Izvodjac</th>
+          <th>Naziv Albuma</th>
+          <th>Zanr</th>
+          <th>Godina izdavanja</th>
+          <th>Izdavacka kuca</th>
+          <th>Slika omota</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="izvodjac">Vrisak generacije</td>
+          <td class="naziv_albuma">Ponekad mi dodje da puknem od jada</td>
+          <td class="zanr">Punk</td>
+          <td class="godina_izdavanja">2007</td>
+          <td class="izdavacka_kuca">SKC Novi Sad</td>
+          <td class="slika_omota"><img src="" alt="" /></td>
+        </tr>
+        <tr>
+          <td class="izvodjac">Dva minuta mrznje</td>
+          <td class="naziv_albuma">Moderna omladina</td>
+          <td class="zanr">Punk</td>
+          <td class="godina_izdavanja">2008</td>
+          <td class="izdavacka_kuca">SKC Novi Sad</td>
+          <td class="slika_omota"><img src="" alt="" /></td>
+        </tr>
+        <tr>
+          <td class="izvodjac">Atheist Rap</td>
+          <td class="naziv_albuma">20 godina stihije</td>
+          <td class="zanr">Punk-Rock</td>
+          <td class="godina_izdavanja">2009</td>
+          <td class="izdavacka_kuca">SKC Novi Sad</td>
+          <td class="slika_omota"><img src="" alt="" /></td>
+        </tr>
+        <tr>
+          <td class="izvodjac">Blitzkrieg</td>
+          <td class="naziv_albuma">2nd</td>
+          <td class="zanr">Punk</td>
+          <td class="godina_izdavanja">2009</td>
+          <td class="izdavacka_kuca">SKC Novi Sad</td>
+          <td class="slika_omota"><img src="" alt="" /></td>
+        </tr>
+        <tr>
+          <td class="izvodjac">Goblini</td>
+          <td class="naziv_albuma">Crno na belo</td>
+          <td class="zanr">Punk</td>
+          <td class="godina_izdavanja">2010</td>
+          <td class="izdavacka_kuca">SKC Novi Sad</td>
+          <td class="slika_omota"><img src="" alt="" /></td>
+        </tr>
+        <tr>
+          <td class="izvodjac">Ritam nereda</td>
+          <td class="naziv_albuma">Paralelni svet</td>
+          <td class="zanr">Rock</td>
+          <td class="godina_izdavanja">2010</td>
+          <td class="izdavacka_kuca">SKC Novi Sad</td>
+          <td class="slika_omota"><img src="" alt="" /></td>
+        </tr>
+      </tbody>
+    </table>
+    <footer>&#169; CD katalog</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
