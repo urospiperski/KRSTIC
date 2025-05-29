@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0;
+  padding: 14px 16px;
+  background-color: #526ea3;
+  color: white;
+}
+nav {
+  background-color: #374969;
+  padding: 2px 2px 2px 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1px;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  background-color: #435679;
+  color: white;
+  text-decoration: none;
+  padding: 7px 12px;
+  border: 1px solid rgb(89, 89, 114);
+}
+
+nav a:hover {
+  background-color: #333c4d;
+}
+
+footer {
+  background-color: rgb(175, 173, 173);
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.sadrzaj {
+  margin: 10px;
+}
+
+.seat-layout {
+  display: flex;
+}
+
+.seat-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.seat-column2 {
+  width: 50px;
+}
+
+.seat {
+  background-color: green;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#seat-number {
+  background-color: #d6d5d5;
+}
+
+.reservation-form {
+  max-width: 320px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.reservation-form label {
+  text-align: left;
+  margin-right: 10px;
+  color: grey;
+}
+
+.reservation-form input {
+  width: 150px;
+}
+
+h3 {
+  color: grey;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: lighter;
+}
+.seat.reserved {
+  background-color: red;
+}

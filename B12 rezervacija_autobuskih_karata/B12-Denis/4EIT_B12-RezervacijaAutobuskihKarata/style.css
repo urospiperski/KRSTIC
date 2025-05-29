@@ -1,0 +1,70 @@
+div.naslov
+{
+    background-color: rgb(110, 110, 244);
+    padding: 15px;
+    margin: -10px -10px 0px -10px ;
+}
+div.naslov h1
+{
+    color: gainsboro;
+}
+nav.navtop
+{
+    background-color: rgb(59, 59, 141);
+    padding: 10px 20px 10px 20px;
+    margin: 0px -10px 0px -10px ;
+}
+nav.navtop button
+{
+    color: gainsboro;
+    background-color: rgb(72, 72, 194);
+    padding: 5px 15px 5px 15px;
+    margin-left: -5px;
+}
+body
+{
+    background-color: gainsboro;
+}
+
+h2
+{
+    color: gray;
+}
+
+td.sedista
+{
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    background-color: aqua;
+    padding: 5px;
+}
+
+td.empty
+{
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: gainsboro;
+}
+
+button.free
+{
+    color: white;
+    background-color: green;
+    width: 27px;
+    height: 27px;
+}
+
+button.taken
+{
+    color: white;
+    background-color: red;
+    width: 27px;
+    height: 27px;
+}
+
+td.podaci
+{
+    width: 100px;
+}
