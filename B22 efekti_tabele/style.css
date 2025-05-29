@@ -1,0 +1,56 @@
+div.top
+{
+    background-color: rgb(74, 74, 255);
+    margin: -20px -10px 0px -10px;
+    padding: 20px;
+}
+h2.naslov
+{
+    color: white;
+}
+table.tabela
+{
+    border: 2px solid black;
+}
+th
+{
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+td
+{
+    border: 1px solid black;
+}
+p.zaglavlje
+{
+    color: white;
+}
+footer
+{
+    background-color: rgb(74, 74, 255);
+    padding: 20px;
+}
+a.linkovi
+{
+    color: white;
+}
+p.zaglavlje2
+{
+    margin-top: -40px;
+}
+p.ipsum
+{
+    color: rgb(74, 74, 255);
+}
+td.polozio
+{
+    background-color: green;
+}
+td.nijepolozio
+{
+    background-color: red;
+}
+td.neparni
+{
+    background-color: lightskyblue;
+}
