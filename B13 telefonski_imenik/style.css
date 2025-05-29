@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+div.navigacija {
+    background-color: rgb(12, 38, 98);;
+    padding: 20px;
+    margin: 0%;
+    display: flex;
+    width: 100%;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 30px;
+    margin-left: 1%;
+}
+
+h2 {
+    color: whitesmoke;
+    margin-left: 40%;
+    margin-top: 1%;
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.a1 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    margin-left: 60%;
+    margin-top: 0.9%;
+}
+
+.a2 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    margin-left: 1%;
+    margin-top: 0.9%;
+}
+
+.a3 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    margin-left: 1%;
+    margin-top: 0.9%;
+}
+
+p {
+    color: rgb(12, 38, 98);;
+    font-size: 25px;
+}
+
+label {
+    color: rgb(12, 38, 98);;
+    font-size: 25px;
+}
+
+table, th{
+    border: 1px solid black;
+    color: white;
+    font-size: 25px;
+}
+
+td {
+    background-color: rgb(12, 38, 98);;
+    border: 1px solid black;
+    color: white;
+    font-size: 25px;
+}
+
+div.navigacija2 {
+    background-color: rgb(12, 38, 98);
+    padding: 20px;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+
+input {
+    height: 20px;
+}
+
+select {
+    height: 25px;
+}
