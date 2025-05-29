@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen,
+    ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial,
+    sans-serif;
+  font-size: 16px;
+}
+body {
+  background-color: #435165;
+  margin: 0;
+  overflow: hidden;
+}
+
+.bibl {
+  width: 100%;
+  background-color: #4b6c9e;
+  padding: 15px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.bibl h1 {
+  font-size: large;
+  padding: 0 5px;
+}
+
+.navtop {
+  background-color: #3a4f63;
+  height: 60px;
+  width: 100%;
+  border: 0;
+}
+
+.navtop div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 15px;
+}
+
+.navtop div a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 15px;
+  border: 1px solid gray;
+}
+
+.navtop div a:hover {
+  color: #eaebed;
+}
+
+a:link,
+a:visited {
+  background-color: #465c71;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #2a2b36;
+}
+
+.content {
+  width: 500px;
+  margin: 15px;
+}
+.content h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #4a536e;
+}
+p {
+  display: inline-block;
+}
+.content > p,
+.content > div {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  margin: 25px 0;
+  padding: 15px;
+  background-color: #fff;
+}
+.content > p table td,
+.content > div table td {
+  padding: 5px;
+}
+.content > p table td:first-child,
+.content > div table td:first-child {
+  font-weight: bold;
+  color: #4a536e;
+  padding-right: 15px;
+}
+.content > div p {
+  padding: 5px;
+  margin: 0 0 10px 0;
+}
+
+.reg {
+  margin: 15px;
+  width: 100%;
+  border-top: 2px solid grey;
+}
+
+.reg a {
+  margin: 0;
+  padding: 0;
+  color: blue;
+  background-color: #f3f4f7;
+}
+
+.login {
+  width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 15px;
+}
+.login h1 {
+  text-align: left;
+  margin: 15px;
+  color: #5b6574;
+  font-size: 24px;
+  padding: 20px 0 20px 0;
+  border-bottom: 1px solid #dee0e4;
+}
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+.login form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #4a536e;
+  color: #ffffff;
+}
+.login form input[type="password"],
+.login form input[type="text"] {
+  width: 310px;
+  height: 50px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+.login form input[type="button"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #4a536e;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+.login form input[type="button"]:hover {
+  background-color: #2a2b36;
+  transition: background-color 0.2s;
+}
+
+body.loggedin {
+  background-color: #f3f4f7;
+}
+
+#result {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  background-color: #dee0e4;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  padding: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: inline-block;
+  width: 5em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 1em;
+}
