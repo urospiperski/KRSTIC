@@ -1,0 +1,1 @@
+SWIFT (Society for Worldwide Interbank Financial Telecommunications) is a global member-owned cooperative that functions as a huge messaging system. Members (banks and other financial institutions) use it to quickly, accurately, and securely send and receive information, primarily money transfer instructions.

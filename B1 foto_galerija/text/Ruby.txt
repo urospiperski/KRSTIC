@@ -1,0 +1,1 @@
+Ruby was created by Yukihiro Matsumoto, or "Matz", in Japan in the mid 1990's. It was designed for programmer productivity with the idea that programming should be fun for programmers. It emphasizes the necessity for software to be understood by humans first and computers second.
