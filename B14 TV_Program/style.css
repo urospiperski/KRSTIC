@@ -1,0 +1,53 @@
+body {
+  overflow: hidden;
+  margin: 0;
+}
+div.navigacija {
+  background-color: rgb(38, 76, 115);
+  margin: -20px -10px 0px -10px;
+  padding: 20px;
+  color: white;
+}
+
+th.vreme {
+  background-color: rgb(38, 76, 115);
+  color: white;
+  padding: 2px 6px;
+  width: 100px;
+}
+
+th.naziv {
+  background-color: rgb(38, 76, 115);
+  color: white;
+  padding: 2px 40px;
+  width: 250px;
+}
+
+th.tip {
+  background-color: rgb(38, 76, 115);
+  color: white;
+  padding: 2px 6px;
+  width: 120px;
+}
+
+footer {
+  background-color: rgb(38, 76, 115);
+  color: white;
+  padding: 10px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+form {
+  margin-left: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p.links {
+  margin-left: 1100px;
+}
