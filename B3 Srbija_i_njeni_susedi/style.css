@@ -1,0 +1,166 @@
+body {
+  background-color: rgb(250, 255, 101);
+}
+
+h1.naslov {
+  font-size: 36px;
+  color: green;
+}
+
+div.navigacija {
+  background-color: rgb(169, 255, 169);
+  display: flex;
+  margin: 0%;
+  width: 100%;
+  justify-content: center;
+}
+
+button.otvoreno {
+  color: rgb(169, 255, 169);
+  background-color: green;
+  padding: 15px 25px;
+  width: 175px;
+}
+
+button {
+  border: none;
+  background-color: rgb(169, 255, 169);
+  color: green;
+  padding: 15px 25px;
+  width: 175px;
+}
+
+h3 {
+  font-size: 24px;
+  color: green;
+}
+
+div.karta {
+  background-image: url("images/srbija.png");
+  margin-top: -475px;
+  margin-left: 700px;
+  margin-right: 250px;
+  width: 450px;
+  height: 700px;
+  background-size: 450px 700px;
+}
+
+button.otvoreno:hover {
+  cursor: pointer;
+  background-color: rgb(0, 75, 0);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 75, 0);
+  color: rgb(169, 255, 169);
+}
+
+footer {
+  color: rgb(169, 255, 169);
+  background-color: green;
+  padding: 7.5px 0px;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+p {
+  padding: 0% 41.5%;
+}
+
+span.geografija {
+  color: green;
+  text-shadow: 5px 5px 5px;
+  font-size: 40px;
+}
+
+div.pored {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 650px;
+}
+
+.madjarska {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.hrvatska {
+  margin-left: 5px;
+  margin-top: 75px;
+}
+
+.bih {
+  margin-left: 5px;
+  margin-top: 150px;
+}
+
+.crnagora {
+  margin-left: 5px;
+  margin-top: 150px;
+}
+
+.albania {
+  margin-left: 105px;
+  margin-top: 30px;
+}
+
+.makedonija {
+  margin-left: 305px;
+  margin-top: -20px;
+}
+
+.bugarska {
+  margin-left: 400px;
+  margin-top: -120px;
+}
+
+.rumunija {
+  margin-left: 325px;
+  margin-top: -520px;
+}
+
+.srbija {
+  margin-left: 175px;
+  margin-top: 120px;
+}
+
+.madjarska img,
+.hrvatska img,
+.bih img,
+.crnagora img,
+.albania img,
+.srbija img,
+.rumunija img,
+.bugarska img,
+.makedonija img {
+  height: 30px;
+  width: 45px;
+}
+
+.madjarska img:hover,
+.hrvatska img:hover,
+.bih img:hover,
+.crnagora img:hover,
+.albania img:hover,
+.srbija img:hover,
+.rumunija img:hover,
+.bugarska img:hover,
+.makedonija img:hover {
+  cursor: pointer;
+}
+
+.madjarska a,
+.hrvatska a,
+.bih a,
+.crnagora a,
+.albania a,
+.srbija a,
+.rumunija a,
+.bugarska a,
+.makedonija a {
+  text-decoration: none;
+  color: black;
+}
