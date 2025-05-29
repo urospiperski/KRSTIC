@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <script src="script/script.js"></script>
+  <title>Zvuci instrumenata</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<audio id="gitara">
+		<source src="multimedija/gitara.mp3" type="audio/ogg">
+	</audio>
+	<audio id="bubnjevi">
+		<source src="multimedija/bubnjevi.mp3" type="audio/ogg">
+	</audio>
+	<audio id="frula">
+		<source src="multimedija/frula.mp3" type="audio/ogg">
+	</audio>
+	<audio id="klavir">
+		<source src="multimedija/klavir.mp3" type="audio/ogg">
+	</audio>
+	<audio id="saksofon">
+		<source src="multimedija/saksofon.mp3" type="audio/ogg">
+	</audio>
+	<audio id="violina">
+		<source src="multimedija/violina.mp3" type="audio/ogg">
+	</audio>
+	<div>
+		<h1>Upoznavanje sa instrumentima</h1>
+		<ul>
+			<li><a class="active">Početna</a></li>
+			<li><a href="o_autoru.html">O autoru</a></li>
+			<li><a href="uputstvo.html">Uputstvo</a></li>
+			
+		</ul>
+	</div>
+	
+	<table>
+		<tr>
+			<th>Naziv Instrumenta</th>
+			<th>Slika Instrumenta</th>
+			<th>Zvuk Instrumenta</th>
+		</tr>
+		<tr>
+			<td class="tekst"><b>&nbsp&nbsp&nbsp&nbspFrula</b></td>
+			<td><img src="multimedija/frula.png" class="instrument" onclick="OpenWikiF()"></td>
+			<td class="zvucnik"><img src="multimedija/zvucnik.png" class="zvucnik" onmouseover="PlaySound('frula')" onmouseout="StopSound('frula')"></td>
+		</tr>
+		<tr>
+			<td class="tekst"><b>&nbsp&nbsp&nbsp&nbspViolina</b></td>
+			<td><img src="multimedija/violina.jpg" class="instrument" onclick="OpenWikiV()"></td>
+			<td class="zvucnik"><img src="multimedija/zvucnik.png" class="zvucnik" onmouseover="PlaySound('violina')" onmouseout="StopSound('violina')"></td>
+		</tr>
+		<tr>
+			<td class="tekst"><b>&nbsp&nbsp&nbsp&nbspSaksofon</b></td>
+			<td><img src="multimedija/saksofon.png" class="instrument" onclick="OpenWikiS()"></td>
+			<td class="zvucnik"><img src="multimedija/zvucnik.png" class="zvucnik" onmouseover="PlaySound('saksofon')" onmouseout="StopSound('saksofon')"></td>
+		</tr>
+		<tr>
+			<td class="tekst"><b>&nbsp&nbsp&nbsp&nbspKlavir</b></td>
+			<td><img src="multimedija/klavir.png" class="instrument" onclick="OpenWikiK()"></td>
+			<td class="zvucnik"><img src="multimedija/zvucnik.png" class="zvucnik" onmouseover="PlaySound('klavir')" onmouseout="StopSound('klavir')"></td>
+		</tr>
+		<tr>
+			<td class="tekst"><b>&nbsp&nbsp&nbsp&nbspGitara</b></td>
+			<td><img src="multimedija/giatara.png" class="instrument" onclick="OpenWikiG()"></td>
+			<td class="zvucnik"><img src="multimedija/zvucnik.png" class="zvucnik" onmouseover="PlaySound('gitara')" onmouseout="StopSound('gitara')"></td>
+		</tr>
+		<tr>
+			<td class="tekst"><b>&nbsp&nbsp&nbsp&nbspBubnjevi</b></td>
+			<td><img src="multimedija/bubnjevi.png" class="bubnjevi" onclick="OpenWikiB()"></td>
+			<td class="zvucnik"><img src="multimedija/zvucnik.png" class="zvucnik" onmouseover="PlaySound('bubnjevi')" onmouseout="StopSound('bubnjevi')"></td>
+		</tr>
+	</table>
+</body>
+</html>

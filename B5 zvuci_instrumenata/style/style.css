@@ -1,0 +1,80 @@
+body{
+	background-color:#c9baff;
+}
+h1{
+	font-size: 45px;
+	padding-left: 50px;
+	padding-top:30px;
+	background-color:#634eff;
+	padding-bottom:30px;
+	margin-top:-10px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+table{
+	border: 2px solid #634eff;
+	width:100%;
+	margin-top:100px;
+}
+th{
+	border: 2px solid #634eff;
+	font-size: 25px;
+}
+td{
+	border: 2px solid #634eff;
+}
+img{
+	width: 200px;
+	height: 250px;
+	margin-left:280px;
+}
+img.zvucnik{
+	height: 200px;
+	width:300px;
+}
+td.zvucnik{
+	padding-right:50px;
+}
+td.instrument{
+	padding-left: 200px;
+}
+img.bubnjevi{
+	width: 300px;
+}
+td.tekst{
+	font-size:28px;
+}
+nav{
+	margin-left:0px;
+}
+ul {
+  list-style-type: none;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top:-30px;
+  padding: 0;
+  overflow: hidden;
+  background-color:#451ed4;
+  
+}
+
+li {
+  float: left;
+  margin-left:0px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #391699;
+}
+p{
+	font-size: 32px;
+}
