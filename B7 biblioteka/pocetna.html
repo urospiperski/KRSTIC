@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pocetna</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    />
+  </head>
+  <body class="loggedin">
+    <div class="bibl">
+      <h1>Biblioteka</h1>
+    </div>
+  
+    <nav class="navtop">
+      <div>
+        <a href="pocetna.html"></i>Pocetna</a>
+        <a href="pregled.php"></i>Pregled</a>
+		<a href="o_autoru.html"></i>O autoru</a>
+		<a href="uputstvo.html"></i>Uputstvo</a>
+      </div>
+    </nav>
+    <div class="content">
+      <h2>Mozete se ulogovati sa sledecim nalozima</h2>
+      <p>Korisnicko ime: test<br />Lozinka: test123</p>
+      <p>Korisnicko ime: test2<br />Lozinka: test2123</p>
+    </div>
+    <div class="reg">Unesite paramtere za logovanje <a href="#"></i>Registrujte se</a> ako nemate nalog</div>
+    <div class="login">
+      <h1>Forma za logovanje</h1>
+      <form>
+        <label for="username"> <i class="fas fa-user"></i></label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Korisnicko ime"
+        /><br />
+
+        <label for="password"> <i class="fas fa-lock"></i></label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+        /><br />
+
+        <input type="button" value="Login" onclick="checkLogin()" />
+      </form>
+
+      <div id="result"></div>
+    </div>
+    <footer>Ⓒ Gradska Bibilioteka</footer>
+    <script src="login.js"></script>
+  </body>
+</html>

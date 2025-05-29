@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<biblioteka>
+<knjiga ISBN="10-000000-001">
+<naslov>Baze podataka</naslov>
+<stanje>12</stanje>
+<citano>21</citano>
+</knjiga>
+<knjiga ISBN="10-000000-002">
+<naslov>Programiranje C#</naslov>
+<stanje>24</stanje>
+<citano>19</citano>
+</knjiga>
+<knjiga ISBN="11-000000-003">
+<naslov>Web dizajn 2</naslov>
+<stanje>5</stanje>
+<citano>11</citano>
+</knjiga>
+<knjiga ISBN="11-000000-004">
+<naslov>Web dizajn 1</naslov>
+<stanje>5</stanje>
+<citano>31</citano>
+</knjiga>
+<knjiga ISBN="11-000000-005">
+<naslov>Web programiranje 2</naslov>
+<stanje>5</stanje>
+<citano>51</citano>
+</knjiga>
+<knjiga ISBN="11-000000-006">
+<naslov>Web programiranje 1</naslov>
+<stanje>5</stanje>
+<citano>31</citano>
+</knjiga>
+</biblioteka>
