@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(../Slike/sky.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  color: rgb(226, 93, 32);
+  padding: 20px;
+  text-shadow: 1px 1px 5px #000000;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+  width: 1000px;
+  font-size: 40px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.izaberi {
+  text-align: center;
+}
+.Smt {
+  margin: auto;
+  margin-top: 10px;
+  width: 1000px;
+  height: 600px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+iframe {
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 800px;
+  height: 500px;
+}
+
+label {
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  padding: 15px 0;
+  color: blue;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.link a:hover {
+  background-color: rgb(226, 93, 32);
+  color: white;
+}
+footer {
+  text-align: center;
+  background-color: none;
+  color: rgb(226, 93, 32);
+  padding: 50px;
+}
