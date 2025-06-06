@@ -1,0 +1,50 @@
+body {
+    background-image: url(slike/pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(219, 219, 149);
+    text-align: center;
+}
+
+.slike img {
+    height: 180px;
+    width: 180px;
+    margin: 50px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 2px solid rgb(219, 219, 149);
+}
+
+footer {
+    margin-top: auto;
+    color: rgb(219, 219, 149);
+    text-align: center;
+    background-color: rgb(62, 8, 8);
+    padding: 20px;
+}
+
+a {
+    background-color: rgb(219, 219, 149);
+    color: rgb(62, 8, 8);
+    padding: 10px;
+    margin: 0;
+    text-decoration-line: none;
+}
+
+a.active {
+    color: rgb(219, 219, 149);
+    background-color: rgb(62, 8, 8);
+}
+p{
+    font-size: 50px;
+    margin-top: 50px;
+    color: rgb(62, 8, 8);
+}
