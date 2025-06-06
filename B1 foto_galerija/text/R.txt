@@ -1,1 +1,0 @@
-R is an interpreted language; users can access it through a command-line interpreter. If a user types 2+2 at the R command prompt and presses enter, the computer replies with 4 . R supports procedural programming with functions and, for some functions, object-oriented programming with generic functions.
