@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Domaće životinje</title>
+</head>
+<body>
+    <h1>Domaće životinje</h1>
+    <div class="meni">
+        <center>
+            <nav>
+                <a href="index.html" class="active">Početna</a>
+                <a href="o_autoru.html">O autoru</a>
+                <a href="uputstvo.html">Uputstvo</a>
+            </nav>
+        </center>
+    </div>
+
+    <div class="slike">
+        <img src="slike/retriver.jpg" onclick="klikniZivotinju('pas')" onmouseover="zvuk('pas')"/>
+        <img src="slike/pace.jpg" onclick="klikniZivotinju('pace')" onmouseover="zvuk('pace')"/>
+        <img src="slike/mace.jpg" onclick="klikniZivotinju('mace')" onmouseover="zvuk('mace')"/>
+        <img src="slike/pile.jpg" onclick="klikniZivotinju('pile')" onmouseover="zvuk('pile')"/>
+        <img src="slike/junica.jpg" onclick="klikniZivotinju('krava')" onmouseover="zvuk('krava')"/>
+
+        <audio id="audioPas" src="zvukovi/pas.mp3"></audio>
+        <audio id="audioPace" src="zvukovi/pace.mp3"></audio>
+        <audio id="audioMace" src="zvukovi/mace.mp3"></audio>
+        <audio id="audioPile" src="zvukovi/pile.mp3"></audio>
+        <audio id="audioKrava" src="zvukovi/krava.mp3"></audio>
+    </div>
+
+    <footer>
+        Copyright &copy; Predškolska ustanova "Srećno dete"
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
