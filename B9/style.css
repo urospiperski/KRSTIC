@@ -1,0 +1,89 @@
+/* Reset osnovnih margina */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Naslov */
+h1 {
+  margin: 0;
+  padding: 14px 16px;
+  background-color: #526ea3;
+  color: white;
+}
+
+/* Navigacija */
+nav {
+  background-color: #374969;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  display: inline-block;
+  background-color: #435679;
+  color: white;
+  text-decoration: none;
+  padding: 7px 12px;
+  border: 1px solid rgb(89, 89, 114);
+  margin-right: 5px;
+}
+
+nav a:hover {
+  background-color: #333c4d;
+}
+
+/* Sekcija za pretragu */
+.search {
+  margin: 20px;
+}
+
+.search label {
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.search input,
+.search select {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+/* Tabela */
+.tabela {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+}
+
+footer {
+  background-color: rgb(175, 173, 173);
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

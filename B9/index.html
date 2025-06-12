@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CD Katalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CD Katalog</h1>
+    <nav>
+        <a href="index.html" class="active">CD Katalog</a>
+        <a href="uputstvo.html">Korisničko uputstvo</a>
+    </nav>
+
+    <div class="search">
+        <label for="izvodjac">Izvođač:</label>
+        <input type="text" id="izvodjac">
+        <br>
+
+        <label for="nazivAlbuma">Naziv albuma:</label>
+        <input type="text" id="nazivAlbuma">
+        <br>
+
+        <label for="zanr">Žanr:</label>
+        <select id="zanr">
+            <option value="">-- Izaberite žanr --</option>
+            <option value="Rep">Rep</option>
+            <option value="Rock">Rock</option>
+            <option value="Pop">Pop</option>
+            <option value="Jazz">Jazz</option>
+            <option value="Klasika">Klasika</option>
+            <option value="Hip-Hop">Hip-Hop</option>
+            <option value="Metal">Metal</option>
+        </select>
+        <br>
+
+        <label for="godina">Godina izdavanja:</label>
+        <select id="godina">
+            <option value="">-- Izaberite godinu --</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+        </select>
+        <br>
+
+        <label for="izdavackaKuca">Izdavačka kuća:</label>
+        <input type="text" id="izdavackaKuca">
+        <br>
+
+        <button onclick="filtriraj()">Pretraži</button>
+    </div>
+
+    <div class="tabela">
+        <table id="tabela">
+            <thead>
+                <tr>
+                    <th>Izvođač</th>
+                    <th>Naziv albuma</th>
+                    <th>Žanr</th>
+                    <th>Godina</th>
+                    <th>Izdavačka kuća</th>
+                    <th>Slika omota</th>
+                </tr>
+            </thead>
+            <tbody id="teloTabele">
+
+            </tbody>
+        </table>
+    </div>
+<footer>&copy; Klub Kolekcionar</footer>
+    <script src="java.js"></script>
+</body>
+</html>
